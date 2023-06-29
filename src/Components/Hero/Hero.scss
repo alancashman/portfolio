@@ -1,0 +1,42 @@
+.hero {
+  // background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  // padding: 10rem 0;
+  height: 40rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    // opacity: 0.5;
+    // background-size: cover;
+    // z-index: -1;
+  }
+
+  &__img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    z-index: 1;
+    margin-bottom: 1rem;
+  }
+
+  &__heading,
+  &__subheading {
+    z-index: 1;
+    color: white;
+  }
+}

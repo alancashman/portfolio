@@ -1,24 +1,47 @@
-@use "../../styles/partials/variables" as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
 
 .header {
-	display: flex;
-	align-items: center;
-	height: 4rem; // justify-content: center;
-	background-color: $color-background;
-	color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 8rem; // justify-content: center;
+  background-color: $color-background;
+  color: white;
 
-	&__heading {
-		margin-left: 4rem;
-	}
+  @include tablet {
+    flex-direction: row;
+    height: 6rem;
+    justify-content: space-around;
+  }
+
+  &__heading {
+    font-size: 2rem;
+  }
 }
 
 .nav {
-	&__list {
-		display: flex;
-		margin-left: 30rem;
-	}
+  &__list {
+    display: flex;
+  }
 
-	&__item {
-		margin-left: 2rem;
-	}
+  &__item {
+    margin: 0 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px solid white;
+    }
+
+    @include tablet {
+      margin: 0 0.5rem;
+    }
+
+    @include desktop {
+      margin: 0 1.5rem;
+    }
+  }
 }
