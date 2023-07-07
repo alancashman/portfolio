@@ -8,8 +8,8 @@ export default function About() {
         <h3 className="about__heading">About Me</h3>
         <div className="about__row">
         <p className="about__text about__text--left">
-          I've got two great passions in my career: psychology and programming.
-          I got a Bachelor's of Arts from UBC in the former in 2018 and worked
+          I have two great passions in my career: psychology and programming.
+          I received a Bachelor's of Arts from UBC in the former back in 2018 and worked
           for a while in a variety of fields before finally taking it upon
           myself to learn everything I could about the latter.
         </p>
