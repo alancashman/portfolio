@@ -1,0 +1,72 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.contact {
+    display: flex;
+    color: white;
+    padding: 4rem;
+    flex-direction: column;
+
+    @include tablet {
+        flex-direction: row;
+    }
+
+    @include desktop {
+          justify-content: flex-end;
+    }
+
+    &__header {
+        font-size: 2.5rem;
+
+        @include tablet {
+            font-size: 3rem;
+        }
+    }
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        justify-content: space-around;
+        text-align: right;
+        border-bottom: 1px solid white;
+
+        @include tablet {
+            border-bottom: 0;
+            border-right: 1px solid white;
+            padding-right: 2rem;
+        }
+    }
+
+    &__details {
+        height: 20rem;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @include desktop {
+            padding-right: 8rem;
+            padding-left: 4rem;
+        }
+    }
+
+
+    &__detail {
+        padding: 1rem 0;
+        color: white;
+        text-decoration: none;
+        text-align: right;
+
+        &--email {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__icon {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+}

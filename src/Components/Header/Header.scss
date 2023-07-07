@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   height: 8rem; // justify-content: center;
-  background-color: $color-background;
+  background-color: $color-background-dark;
   color: white;
 
   @include tablet {
@@ -43,5 +43,10 @@
     @include desktop {
       margin: 0 1.5rem;
     }
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
   }
 }

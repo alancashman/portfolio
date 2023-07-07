@@ -1,0 +1,29 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+
+.projects {
+    color: white;
+
+    @include tablet {
+        padding: 4rem;
+    }
+    &__heading {
+    
+        font-size: 2rem;
+        padding: 2rem 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        text-align: center;
+
+        @include tablet {
+            font-size: 4rem;
+            text-align: left;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+        }
+    }
+
+    
+
+}

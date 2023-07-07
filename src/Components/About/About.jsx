@@ -30,7 +30,7 @@ export default function About() {
         <p className="about__text about__text--left">
           After spending a year treating self-study as my fulltime job, I got
           the opportunity to join BrainStation for their intensive 12-week web
-          development bootcamp I was delighted to get the opportunity to come
+          development bootcamp.  A few months later I was delighted to be asked to come
           back as a teaching assistant for a subsequent cohort, helping a new
           batch of hard-working individuals attempt to realize their dreams. Now
           I'm finally ready for my first official web development role!
