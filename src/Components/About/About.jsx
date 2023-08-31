@@ -1,5 +1,8 @@
 import './About.scss'
 import avatarImg from '../../assets/images/avatar-img.jpg'
+import ubcImg from '../../assets/images/ubc.jpg'
+import codeImg from '../../assets/images/code.jpg'
+import bsImg from '../../assets/images/brainstation.jpg'
 
 export default function About() {
   return (
@@ -13,7 +16,7 @@ export default function About() {
           for a while in a variety of fields before finally taking it upon
           myself to learn everything I could about the latter.
         </p>
-        <img src={avatarImg} alt="" className="about__img" />
+        <img src={ubcImg} alt="" className="about__img" />
         </div>
         <div className="about__row">
         <p className="about__text about__text--right">
@@ -23,7 +26,7 @@ export default function About() {
           but a real, practical skill that, through a lot of hard work and
           dedication, anyone can learn!
         </p>
-        <img src={avatarImg} alt="" className="about__img about__img--left" />
+        <img src={codeImg} alt="" className="about__img about__img--left" />
 
         </div>
         <div className="about__row">
@@ -35,7 +38,7 @@ export default function About() {
           batch of hard-working individuals attempt to realize their dreams. Now
           I'm finally ready for my first official web development role!
         </p>
-        <img src={avatarImg} alt="" className="about__img" />
+        <img src={bsImg} alt="" className="about__img" />
         </div>
       </section>
     </>

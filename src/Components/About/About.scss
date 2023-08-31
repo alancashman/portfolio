@@ -31,7 +31,7 @@
     justify-content: space-between;
     margin: 1rem 2rem;
 
-    @include tablet {
+    @include desktop {
       flex-direction: row;
     }
   }
@@ -41,32 +41,43 @@
     text-align: center;
     font-size: .875rem;
     align-self: center;
+    padding-right: 4rem;
+    line-height: 2rem;
 
     @include tablet {
-      width: 50%;
+      // width: 50%;
       margin: 2rem 0;
       font-size: 1rem;
     }
 
+    @include desktop {
+    }
+
     &--right {
       margin-left: auto;
+      padding-left: 4rem;
+      padding-right: 0;
     }
   }
 
   &__img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 25rem;
+    height: 16rem;
+    border-radius: 1rem;
     align-self: center;
     margin-top: 1rem;
 
     @include tablet {
+      width: 40rem;
+      height: 27rem;
     }
 
     &--left {
-      @include tablet {
+      @include desktop {
         order: -1;
       }
+
+      
     }
   }
 }
