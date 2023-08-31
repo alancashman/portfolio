@@ -1,5 +1,4 @@
 import './About.scss'
-import avatarImg from '../../assets/images/avatar-img.jpg'
 import ubcImg from '../../assets/images/ubc.jpg'
 import codeImg from '../../assets/images/code.jpg'
 import bsImg from '../../assets/images/brainstation.jpg'

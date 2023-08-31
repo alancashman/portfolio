@@ -1,9 +1,9 @@
 import './Header.scss'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   return (
     <section className="header">
       <h1 className="header__heading">Alan V. Cashman</h1>
