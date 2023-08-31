@@ -1,5 +1,4 @@
 import './Projects.scss'
-import avatarImg from '../../assets/images/avatar-img.jpg'
 import bandSiteImg from '../../assets/images/bandsite.png'
 import brainFlixImg from '../../assets/images/brainflix.png'
 import inStockImg from '../../assets/images/instock.png'

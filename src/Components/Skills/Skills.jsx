@@ -1,5 +1,4 @@
 import './Skills.scss'
-import avatarImg from '../../assets/images/avatar-img.jpg'
 import htmlIcon from '../../assets/icons/html.png';
 import cssIcon from '../../assets/icons/css.png'
 import jsIcon from '../../assets/icons/js.png'
@@ -12,17 +11,17 @@ import gitIcon from '../../assets/icons/git.png'
 
 import Skill from '../Skill/Skill';
 
-const skills = [
-  {name: 'HTML', icon: htmlIcon},
-  {name: 'CSS', icon: cssIcon},
-  {name: 'JavaScript', icon: jsIcon},
-  {name: 'React', icon: reactIcon},
-  {name: 'Sass', icon: sassIcon},
-  {name: 'Node.js', icon: nodeJsIcon},
-  {name: 'MySQL', icon: mysqlIcon},
-  {name: 'Express', icon: expressIcon},
-  {name: 'Git', icon: gitIcon}
-]
+// const skills = [
+//   {name: 'HTML', icon: htmlIcon},
+//   {name: 'CSS', icon: cssIcon},
+//   {name: 'JavaScript', icon: jsIcon},
+//   {name: 'React', icon: reactIcon},
+//   {name: 'Sass', icon: sassIcon},
+//   {name: 'Node.js', icon: nodeJsIcon},
+//   {name: 'MySQL', icon: mysqlIcon},
+//   {name: 'Express', icon: expressIcon},
+//   {name: 'Git', icon: gitIcon}
+// ]
 
 
 export default function Skills() {

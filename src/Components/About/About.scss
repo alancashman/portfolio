@@ -41,22 +41,26 @@
     text-align: center;
     font-size: .875rem;
     align-self: center;
-    padding-right: 4rem;
     line-height: 2rem;
 
     @include tablet {
-      // width: 50%;
       margin: 2rem 0;
       font-size: 1rem;
     }
 
     @include desktop {
+    padding-right: 4rem;
     }
+
 
     &--right {
       margin-left: auto;
-      padding-left: 4rem;
-      padding-right: 0;
+      
+
+      @include desktop {
+        padding-left: 4rem;
+        padding-right: 0;
+      }
     }
   }
 
