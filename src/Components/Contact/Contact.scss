@@ -6,14 +6,16 @@
     color: white;
     padding: 4rem;
     flex-direction: column;
-    height: 35rem;
 
     @include tablet {
         flex-direction: row;
+    height: 42rem;
+
     }
 
     @include desktop {
           justify-content: flex-end;
+          
     }
 
     &__header {

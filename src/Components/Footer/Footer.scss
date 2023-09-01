@@ -16,6 +16,8 @@
         display: block;
         margin-top: auto;
         margin-bottom: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
         font-size: .875rem;
 
         &--link {
@@ -29,7 +31,13 @@
 
     &__socials {
         display: flex;
+        gap: 2rem;
+        justify-content: flex-end;
+
+        @include tablet {
         justify-content: space-between;
+
+        }
     }
 
     &__contact {
